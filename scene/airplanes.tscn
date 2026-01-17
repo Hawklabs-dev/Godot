@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://xa3mlf1rtt7t"]
+
+[node name="airplanes" type="Node2D"]
+scale = Vector2(3.8421052, 31.04)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]

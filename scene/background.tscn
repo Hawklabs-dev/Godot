@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt8u2hfnurmov"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_aptfn"]
+resource_local_to_scene = true
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_jirmm"]
+
+[node name="Background" type="ParallaxBackground"]
+layer = -1
+scroll_ignore_camera_zoom = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("Texture2DRD_aptfn")
+
+[node name="TextureRect" type="TextureRect" parent="Sprite2D"]
+offset_left = -2.0
+offset_right = 38.0
+offset_bottom = 40.0
+scale = Vector2(0.9653836, 1)
+texture = SubResource("ViewportTexture_jirmm")
+expand_mode = 1

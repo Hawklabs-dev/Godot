@@ -1,0 +1,72 @@
+[gd_scene load_steps=10 format=3 uid="uid://s0tkugco8pu"]
+
+[ext_resource type="Texture2D" uid="uid://nhdhewngmw8o" path="res://Objects/Hawkrocketman.png" id="1_hjaqi"]
+[ext_resource type="Script" uid="uid://v8x5n1s3nih6" path="res://scene/animated_sprite_2d.gd" id="2_fvtld"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s4jxa"]
+size = Vector2(155.0448, 317.79315)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjaqi"]
+atlas = ExtResource("1_hjaqi")
+region = Rect2(0, 0, 371, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fvtld"]
+atlas = ExtResource("1_hjaqi")
+region = Rect2(371, 0, 371, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ct4mp"]
+atlas = ExtResource("1_hjaqi")
+region = Rect2(742, 0, 371, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4jxa"]
+atlas = ExtResource("1_hjaqi")
+region = Rect2(1113, 0, 371, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oh5ij"]
+atlas = ExtResource("1_hjaqi")
+region = Rect2(394, 0, 388, 513)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ct4mp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjaqi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fvtld")
+}, {
+"duration": 1.41,
+"texture": SubResource("AtlasTexture_ct4mp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4jxa")
+}],
+"loop": true,
+"name": &"backwards",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oh5ij")
+}],
+"loop": true,
+"name": &"forward",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(98, 124)
+disable_mode = 1
+slide_on_ceiling = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 9)
+scale = Vector2(0.2257412, 0.16992185)
+shape = SubResource("RectangleShape2D_s4jxa")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(7, 10)
+scale = Vector2(0.15330178, 0.12792964)
+sprite_frames = SubResource("SpriteFrames_ct4mp")
+animation = &"forward"
+script = ExtResource("2_fvtld")

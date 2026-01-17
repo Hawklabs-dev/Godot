@@ -1,6 +1,13 @@
-# Hawklabs Godot Pipeline
+# Northern Advance (Hawklabs)
 
-This repository contains all Godot-based game and interactive projects for Hawklabs.
+A vertical-scrolling shooter prototype built with Godot 4.
 
-Root location:
-/data/Repos/hawklabs/godot
+## Getting Started
+1. Open `project.godot` in Godot 4.x
+2. Press Play
+
+## Folder Layout
+- `scene/` – scenes (Godot `.tscn`)
+- `scripts/` – GDScript code
+- `Objects/` – art/assets (sprites, backgrounds)
+
