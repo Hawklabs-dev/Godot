@@ -6,3 +6,4 @@
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_itxqv")]
 position = Vector2(350, 964)
+rotation = 0.30355301

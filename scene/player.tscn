@@ -68,5 +68,5 @@ shape = SubResource("RectangleShape2D_s4jxa")
 position = Vector2(7, 10)
 scale = Vector2(0.15330178, 0.12792964)
 sprite_frames = SubResource("SpriteFrames_ct4mp")
-animation = &"forward"
+animation = &"backwards"
 script = ExtResource("2_fvtld")

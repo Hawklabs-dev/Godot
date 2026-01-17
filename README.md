@@ -10,4 +10,3 @@ A vertical-scrolling shooter prototype built with Godot 4.
 - `scene/` – scenes (Godot `.tscn`)
 - `scripts/` – GDScript code
 - `Objects/` – art/assets (sprites, backgrounds)
-

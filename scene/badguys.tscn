@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://6g2pyujbac2h"]
+
+[node name="badguys" type="Node2D"]
+scale = Vector2(1, 1.8000001)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
