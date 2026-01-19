@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://6g2pyujbac2h"]
+[gd_scene load_steps=7 format=3 uid="uid://6g2pyujbac2h"]
 
 [ext_resource type="Texture2D" uid="uid://bsflwayk5nke1" path="res://assets/sprites/Fighter_type_A1.png" id="1_koewx"]
 [ext_resource type="Texture2D" uid="uid://dqr33sv1teebq" path="res://assets/sprites/Fighter_type_A2.png" id="2_os6pd"]
@@ -22,6 +22,8 @@ animations = [{
 }]
 script = SubResource("GDScript_iiuvu")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_koewx"]
+
 [node name="badguys" type="CharacterBody2D"]
 y_sort_enabled = true
 scale = Vector2(1, 1.8000001)
@@ -31,3 +33,6 @@ script = SubResource("GDScript_0voii")
 y_sort_enabled = true
 sprite_frames = SubResource("SpriteFrames_6nall")
 script = SubResource("GDScript_0voii")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_koewx")
