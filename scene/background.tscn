@@ -1,11 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://dt8u2hfnurmov"]
 
-[ext_resource type="Texture2D" uid="uid://c3iyvhsvdojs" path="res://Objects/Backgrounds/stuff/Background_Full-0001.png" id="1_jirmm"]
+[ext_resource type="Texture2D" uid="uid://bk6ngeaxflqq4" path="res://assets/Backgrounds/LVL1landscape.png" id="1_jirmm"]
 
 [node name="Background" type="ParallaxBackground"]
 layer = -1
 
 [node name="Node2D" type="Sprite2D" parent="."]
-position = Vector2(0, 53)
-scale = Vector2(1, 1.4721875)
+position = Vector2(10.5, 47.38001)
+scale = Vector2(1.0123698, 1.4870703)
 texture = ExtResource("1_jirmm")
