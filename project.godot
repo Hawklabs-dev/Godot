@@ -11,10 +11,9 @@ config_version=5
 [application]
 
 config/name="Northern_advance"
-run/main_scene="uid://dixve1sjumyq5"
 run/enable_alt_space_menu=true
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://'1old_code/icon.svg"
 
 [display]
 
@@ -22,6 +21,14 @@ window/size/viewport_width=800
 window/size/viewport_height=1100
 window/stretch/aspect="expand"
 window/handheld/orientation=1
+
+[file_customization]
+
+folder_colors={
+"res://'1old_code/": "red",
+"res://scene/": "blue",
+"res://scripts/": "blue"
+}
 
 [input]
 
