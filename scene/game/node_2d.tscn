@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dsbmurv31gwr1"]
+
+[ext_resource type="Script" uid="uid://dmlhhnvie86iq" path="res://scripts/game/LevelController.gd" id="1_f5le5"]
+[ext_resource type="Script" uid="uid://bap2qcpl1sf2a" path="res://scripts/game/ScrollController.gd" id="2_g7kty"]
+[ext_resource type="PackedScene" uid="uid://s0tkugco8pu" path="res://'1old_code/scene/player.tscn" id="3_3ay45"]
+
+[node name="Level1" type="Node2D"]
+script = ExtResource("1_f5le5")
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="Background" type="Node2D" parent="World"]
+script = ExtResource("2_g7kty")
+
+[node name="TileMap" type="TileMap" parent="World"]
+format = 2
+
+[node name="Actors" type="Node2D" parent="World"]
+
+[node name="CharacterBody2D" parent="World/Actors" instance=ExtResource("3_3ay45")]
+
+[node name="Enemies" type="Node2D" parent="World/Actors"]
+
+[node name="Projectiles" type="Node2D" parent="World/Actors"]
+
+[node name="FX" type="Node2D" parent="World/Actors"]
+
+[node name="SpawnController" type="Node" parent="World"]
+script = ExtResource("2_g7kty")
+
+[node name="HudLayer" type="CanvasLayer" parent="World"]
