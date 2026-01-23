@@ -1,8 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://s0tkugco8pu"]
+[gd_scene load_steps=14 format=3 uid="uid://s0tkugco8pu"]
 
-[ext_resource type="Script" uid="uid://fim1inxebjub" path="res://'1old_code/scripts/player.gd" id="1_fvtld"]
 [ext_resource type="Texture2D" uid="uid://bjppb5cjbxw5i" path="res://'1old_code/assets/sprites/jetfightnew.png" id="1_hjaqi"]
-[ext_resource type="Script" path="res://scripts/animated_sprite_2d.gd" id="2_fvtld"]
+[ext_resource type="Script" uid="uid://fim1inxebjub" path="res://'1old_code/scripts/player.gd" id="2_fvtld"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s4jxa"]
 size = Vector2(155.0448, 317.79315)
@@ -103,7 +102,7 @@ animations = [{
 position = Vector2(98, 124)
 disable_mode = 1
 slide_on_ceiling = false
-script = ExtResource("1_fvtld")
+script = ExtResource("2_fvtld")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 9)

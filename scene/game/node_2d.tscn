@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dmlhhnvie86iq" path="res://scripts/game/LevelController.gd" id="1_f5le5"]
 [ext_resource type="Script" uid="uid://bap2qcpl1sf2a" path="res://scripts/game/ScrollController.gd" id="2_g7kty"]
-[ext_resource type="PackedScene" uid="uid://s0tkugco8pu" path="res://'1old_code/scene/player.tscn" id="3_3ay45"]
+[ext_resource type="PackedScene" path="res://'1old_code/scene/player.tscn" id="3_3ay45"]
 
 [node name="Level1" type="Node2D"]
 script = ExtResource("1_f5le5")

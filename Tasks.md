@@ -1,20 +1,20 @@
 **Northern Advance**
-      
-        -Top down 2d vertical scrolling air combat game. 
-        -Designed for PC invoroment.
-        -12 and up age group
-        
+	  
+		-Top down 2d vertical scrolling air combat game. 
+		-Designed for PC invoroment.
+		-12 and up age group
+		
 
 *Overall Goal*
-    
-    - To have a fun, engaginhg, solid built, game with all aspects of the developed game being made by Hawklabs and its entities, coded in Godot.
-    -air combat game with constat attck . dodge incoming. return fire - get to boss kill boss win.
-    -10 mins of play time is goal. Nothiing more. so 3 lvls , 3 mins each. last lvl boss fight.
-        
+	
+	- To have a fun, engaginhg, solid built, game with all aspects of the developed game being made by Hawklabs and its entities, coded in Godot.
+	-air combat game with constat attck . dodge incoming. return fire - get to boss kill boss win.
+	-10 mins of play time is goal. Nothiing more. so 3 lvls , 3 mins each. last lvl boss fight.
+		
 **Backstory**
 
-    Commander Hawk is fighting his way back north to him homalnd that has been invaded by a unknow force.
-    
+	Commander Hawk is fighting his way back north to him homalnd that has been invaded by a unknow force.
+	
 ***The 3 C's for Fist game Dev***
 
     Character: A simple, recognizable avatar (like a 2D sprite or basic cube).

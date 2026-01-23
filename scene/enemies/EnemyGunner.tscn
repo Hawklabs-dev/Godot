@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://b6oe8fph6k2tu"]
+[gd_scene load_steps=2 format=3 uid="uid://b6oe8fph6k2tu"]
+
+[ext_resource type="Script" uid="uid://dom62jy576r1w" path="res://scripts/enemies/EnemyGunner.gd" id="1_dn63e"]
 
 [node name="EnemyGunner" type="Node2D"]
+script = ExtResource("1_dn63e")

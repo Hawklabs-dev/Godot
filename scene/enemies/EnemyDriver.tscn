@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://ctc8m72larn4s"]
+[gd_scene load_steps=2 format=3 uid="uid://ctc8m72larn4s"]
+
+[ext_resource type="Script" uid="uid://uvtpe7klx171" path="res://scripts/enemies/enemy_driver.gd" id="1_p83y7"]
 
 [node name="EnemyDriver" type="Node2D"]
+script = ExtResource("1_p83y7")
