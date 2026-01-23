@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cfk2v41iaje1"]
+
+[node name="PlayerBullet" type="Node2D"]
