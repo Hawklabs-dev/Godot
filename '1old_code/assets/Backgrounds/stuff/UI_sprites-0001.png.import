@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccyjvqmi5u614"
-path="res://.godot/imported/UI_sprites-0001.png-203790562b880af6b57a066e20f32da3.ctex"
+path="res://godot/imported/UI_sprites-0001.png-203790562b880af6b57a066e20f32da3.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://'1old_code/assets/Backgrounds/stuff/UI_sprites-0001.png"
-dest_files=["res://.godot/imported/UI_sprites-0001.png-203790562b880af6b57a066e20f32da3.ctex"]
+dest_files=["res://godot/imported/UI_sprites-0001.png-203790562b880af6b57a066e20f32da3.ctex"]
 
 [params]
 

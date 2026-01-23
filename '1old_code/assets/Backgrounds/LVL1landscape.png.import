@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk6ngeaxflqq4"
-path="res://.godot/imported/LVL1landscape.png-83d6b976255e3676f7f31748a6c0214e.ctex"
+path="res://godot/imported/LVL1landscape.png-83d6b976255e3676f7f31748a6c0214e.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://'1old_code/assets/Backgrounds/LVL1landscape.png"
-dest_files=["res://.godot/imported/LVL1landscape.png-83d6b976255e3676f7f31748a6c0214e.ctex"]
+dest_files=["res://godot/imported/LVL1landscape.png-83d6b976255e3676f7f31748a6c0214e.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://61k4gyvxu3xn"
-path="res://.godot/imported/Bonuses-0001.png-198b61d6019c015631a99f73be96ba91.ctex"
+path="res://godot/imported/Bonuses-0001.png-198b61d6019c015631a99f73be96ba91.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://'1old_code/assets/Backgrounds/stuff/Bonuses-0001.png"
-dest_files=["res://.godot/imported/Bonuses-0001.png-198b61d6019c015631a99f73be96ba91.ctex"]
+dest_files=["res://godot/imported/Bonuses-0001.png-198b61d6019c015631a99f73be96ba91.ctex"]
 
 [params]
 

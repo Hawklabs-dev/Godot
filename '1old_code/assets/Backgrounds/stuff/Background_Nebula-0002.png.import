@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6p58n2y3k0uq"
-path="res://.godot/imported/Background_Nebula-0002.png-1656082d75d80513cb4baead83a0daf1.ctex"
+path="res://godot/imported/Background_Nebula-0002.png-1656082d75d80513cb4baead83a0daf1.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://'1old_code/assets/Backgrounds/stuff/Background_Nebula-0002.png"
-dest_files=["res://.godot/imported/Background_Nebula-0002.png-1656082d75d80513cb4baead83a0daf1.ctex"]
+dest_files=["res://godot/imported/Background_Nebula-0002.png-1656082d75d80513cb4baead83a0daf1.ctex"]
 
 [params]
 

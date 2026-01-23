@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doit0srqgpkbh"
-path="res://.godot/imported/architecture_diagram.jpg-10c33ede0ef5a9ca5e5aef1eb48e8496.ctex"
+path="res://godot/imported/architecture_diagram.jpg-10c33ede0ef5a9ca5e5aef1eb48e8496.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://'1old_code/docs/architecture_diagram.jpg"
-dest_files=["res://.godot/imported/architecture_diagram.jpg-10c33ede0ef5a9ca5e5aef1eb48e8496.ctex"]
+dest_files=["res://godot/imported/architecture_diagram.jpg-10c33ede0ef5a9ca5e5aef1eb48e8496.ctex"]
 
 [params]
 

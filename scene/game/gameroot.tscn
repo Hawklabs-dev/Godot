@@ -10,3 +10,5 @@ script = ExtResource("1_e7w8r")
 [node name="UIRoot" type="CanvasLayer" parent="."]
 
 [node name="AudioRoot" type="Node" parent="."]
+
+[connection signal="script_changed" from="UIRoot" to="SceneRouter" method="_on_ui_root_script_changed"]
